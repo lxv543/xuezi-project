@@ -1,0 +1,89 @@
+
+  <div class="main">
+    <div id="header-top" class="clear">
+      <!-- 1、左侧 ：LOGO -->
+      <div id="logo" class="lf">
+        <a href="01-index.html">
+          <img src="img/header/logo.png" alt="">
+        </a>
+      </div>
+      <!-- 2、中间输入框-->
+      <div id="top-input" class="lf">
+        <div class="input-box" class="lf">
+          <ul id="shelper">
+            <!-- <li title="周大福 项链">
+              <div class="search-item" title="周大福 项链">周大福 项链</div>
+            </li> -->
+          </ul>
+          <input type="text" id="txtSearch" placeholder="请输入您要搜索的内容">
+          
+          <span class="sort-search">
+            分类搜索
+            <i class="caret"></i>
+          </span>
+        </div>
+        <a href="#" class="search-img" data-trigger="search">
+          <img src="img/header/search.png" alt="">
+        </a>
+      </div>
+      <!--未登录时的列表-->
+      <ul id="listLogin">
+        <li>
+          <a href="#">注册</a>
+          <b>|</b>
+        </li>
+        <li>
+          <a href="#">登录</a>
+        </li>
+      </ul>
+      <!--登录后的列表-->
+      <ul id="listWelcome">
+        <li>
+          <a href="#" title="我的收藏">
+            <img src="img/header/care.png">
+          </a>
+          <b>|</b>
+        </li>
+        <li>
+          <a href="#" title="我的订单">
+            <img src="img/header/order.png">
+          </a>
+          <b>|</b>
+        </li>
+        <li>
+          <a href="#" title="我的购物车">
+            <img src="img/header/shop_car.png" alt="">
+          </a>
+          <b>|</b>
+        </li>
+        <li>
+          <h3>你好,<span id="uname"></span></h3>
+          <b>|</b>
+        </li>
+        <li>
+          <a href="#" title="注销">注销</a>
+        </li>
+      </ul>
+    </div>
+    <div id="dialog-login" title="用户登录">
+      <form>
+        用户名：<input id="txtName" name="uname"><br>
+        密码名：<input id="txtPwd" type="password" name="upwd"><br>
+        <div id="valiTips" style="background:lightYellow;color:red;display:none">
+        </div>
+      </form>
+    </div>
+    <nav id="nav" class="clear">
+      <ul>
+        <li>
+          <a href="#">首页</a>
+        </li>
+        <li>
+          <a href="#">学习用品</a>
+        </li>
+        <li>
+          <a href="#">私人定制</a>
+        </li>
+      </ul>
+    </nav>
+  </div>

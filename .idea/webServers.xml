@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="797a81b5-d9d3-47fa-a009-bd2caf25d57b" name="tomcat1" url="http://localhost:8080/xuezi">
+        <fileTransfer port="0" mountedRoot="/opt/soft/apache-tomcat-7.0.82/webapps/xuezi" accessType="MOUNT" />
+      </webServer>
+    </option>
+  </component>
+</project>
